@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+.container {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list {
+  background-color: rgb(214, 237, 238);
+  border-radius: 10px;
+  padding: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item {
+  padding: 15px;
+  border: 1px solid rgb(214, 211, 243);
+  border-radius: 10px;
+  background-color: rgb(247, 247, 242);
+  margin-bottom: 5px;
+ 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.item-btn {
+  text-align: end;
+
+}
+
+.btn {
+  padding: 7px;
+  background-color: rgb(116, 116, 240);
+  border-radius: 5px;
+  border: none;
   color: white;
+  font-size: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.error {
+  padding: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.newPost {
+  padding: 7px;
+  background-color: gray;
+}
+
+.newPost__box {
+  padding: 15px;
+  background-color: white;
+  text-align: end;
+}
+
+.newPost__box div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(230, 231, 238, 0.712);
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.btn-close {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  color: gray;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  height: 150px;
+  padding: 7px;
+  border: none;
+  margin: 7px 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.img-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user {
+  margin-left: 10px;
+  font-size: 18px;
+  color: rgb(118, 118, 245);
+}
+
+.content {
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.control {
+  margin-top: 25px;
+  text-align: end;
+}
+
+.delete {
+  background-color: red;
+  margin-left: 10px;
+}
+
+.date {
+  color: gray;
+  font-size: 0.8em;
 }
